@@ -1,15 +1,18 @@
-html,body{ margin: 0;}
+.cuerpo{ 
+    background-color:rgba(167, 166, 80, 0.504);
+    margin: 0;
+}
 .contenedor{
-    background: #f72f2f;
+    background: rgb(247, 47, 47);
     height: 100vh;
     display: flex;        
     justify-content: center;
 }
 .contenedor_centrado{
-    background:   #fff;
+    background:   rgb(238, 231, 231);
     width: 450px;       
     height: 700px;       
-    border:3px solid brown;
+    border:3px solid rgb(165, 42, 42);
     border-radius:22px;
 } 
 .h1{
