@@ -4,7 +4,7 @@
 }
 /* 1 REM es igual a 16px*/
 /*B: Nombre bloque, 
-E:Nombre bloque__nombre elemento*/
+E:Nombre bloque__nombre elemento esto*/
 
 
 .cabecera{
@@ -49,10 +49,12 @@ E:Nombre bloque__nombre elemento*/
 
 .cabecera__img-contenedor{
     width:150px;
+
     height:300px; 
 }
 
 .cabecera__img-foto{
-    display: block;
+    /*no esta aqui*/
+    display: block ;
     margin: 0px auto;
 }
