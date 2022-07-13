@@ -3,6 +3,9 @@
     margin: 0;
 }
 /* 1 REM es igual a 16px*/
+/*B: Nombre bloque, 
+E:Nombre bloque__nombre elemento*/
+
 
 .cabecera{
     padding: 0.5rem;
@@ -14,7 +17,7 @@
     display: flex;        
     justify-content: center;
 }
-.contenedor_centrado{
+.contenedor__div-centrado{
     background-color:   rgb(238, 231, 231);
     width: 450px;       
     height: 700px;       
@@ -35,12 +38,21 @@
     font-family:"Segoe IU", sans-serif;
 }
 .listado li{
-    vertical-align: top;
-    display: inline;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
     font-size: 2em;
     padding: 0.5em;
+    list-style: none;
 }
-.foto_jc{
+
+.cabecera__img-contenedor{
+    width:150px;
+    height:300px; 
+}
+
+.cabecera__img-foto{
     display: block;
     margin: 0px auto;
 }
